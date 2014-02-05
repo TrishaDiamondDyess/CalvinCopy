@@ -1,0 +1,257 @@
+<html>
+<head>
+<title>Portofino Pools</title>
+<!-- <link href="font/stylesheet.css" rel="stylesheet" type="text/css" />	 -->
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+<link href="css/media-queries.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+
+<meta name="viewport" content="width=device-width" />
+ 
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+<link href='http://fonts.googleapis.com/css?family=Exo:400,800' rel='stylesheet' type='text/css'>
+<!-- 
+ <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+ <link rel="stylesheet" type="text/css" href="~css/bootstrap.min.css"/>
+ <link rel="stylesheet" type="text/css" href="~css/bootstrap-responsive.css"/>
+ <link rel="stylesheet" type="text/css" href="~css/media-queries.css"/>
+ --></head>
+<body>
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+	
+			<a class="brand pull-left" href="#">
+			Portofino Pools
+			</a>
+	
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</a>
+		
+			<div class="nav-collapse collapse">
+				<ul id="nav-list" class="nav pull-right">
+					<li><a href="#home">Customer Information</a></li>
+					<li><a href="#service">Service Tables</a></li>
+					<li><a href="#inventory">Inventory</a></li>
+					<li><a href="#invoice">Invoice</a></li>
+					
+				</ul>
+			</div>
+		
+		</div>
+	</div>
+</div>
+<form>
+<img src="logo.png" alt="logo" class="logo"/>
+<hr/>
+<div class="container" id="home">
+	<div>
+		
+		<h3>Date of visit</h3><input type="date" /><br/>
+		<h3>Time Visit Completed</h3><input type="time"/><br/>
+		<h3>Customer</h3>
+		<select>
+		<option>Conner Lane</option>
+		<option>Oakwood Drive</option>
+		<option>Eaton Avenue</option>
+		<option>Tidewater Circle</option>
+		<option>Johston Avenue</option>
+		</select>
+		<br/>
+		<input type="checkbox" value="extra"/>Extra Visit ($)<input type="number"/><br/>
+		<input type="checkbox" value="return"/>Return Visit<br/>
+		<input type="checkbox" value ="regular"/>Regular Scheduled Visit<br/>
+		<div class="selections">
+			<h3>Water Clarity</h3>
+			<select id="clarity">
+			<option>Crystal Clear</option>
+			<option>Cloudy</option>
+			<option>Algae</option>
+			</select>
+			<h3>Water Level</h3>
+			<select id="level">
+			<option>Good</option>
+			<option>Raised</option>
+			<option>Lowered</option>
+			</select>
+			<h3>Weather</h3>
+			<select id="weather">
+			<option>Sunny</option>
+			<option>Cloudy</option>
+			<option>Windy</option>
+			<option>Rain</option>
+			<option>Lightning</option>
+			<option>Indoor</option>
+			</select>
+			<h3>Water Temperature</h3>
+			<select id="watTemp">
+			<option>Cool</option>
+			<option>Mild</option>
+			<option>Hot</option>
+			</select>
+			<h3>Air Temperature</h3>
+			<select id="airTemp">
+			<option>Cool</option>
+			<option>Mild</option>
+			<option>Hot</option>
+			</select>
+		</div>
+	</div>
+</div>
+<div class="container" id="service">
+
+
+	
+		<div class="span6">
+			<h2 class="page-title" id="scroll_up">
+				Services
+				<a href="#home" class="arrow-top">
+				<img src="img/arrow-top.png">
+				</a>
+			</h2>
+	
+<table id="ChemTest1" class="table">
+<tr><th colspan="2">Chemical Testing Services Location 1</th></tr>
+<tr class="heading"><td>Critical Limits</td><td>Test Results</td></tr>
+<tr><td>Pool Chlorine (1-10 ppm) - Disinfectant</td><td><input type="text"/></td></tr>
+<tr><td>Spa Chlorine (2-10 ppm) - Disinfectant</td><td><input type="text"/></td></tr>
+<tr><td>Pool Bromine (2-10 ppm) - Disinfectant</td><td><input type="text"/></td></tr>
+<tr><td>Spa Bromine (3-10 ppm) - Disinfectant</td><td><input type="text"/></td></tr>
+<tr><td>PH (7.2 - 7.6) - Acid Level</td><td><input type="text"/></td></tr>
+<tr><td>Total Alkalinity (80 - 120 ppm)</td><td><input type="text"/></td></tr>
+<tr><td>Calcium Hardness (200 - 400 ppm)</td><td><input type="text"/></td></tr>
+<tr><td>CYA/UV Stabilizer</td><td><input type="text"/></td></tr>
+<tr><td>Pool Salt (2800 - 3500 ppm)</td><td><input type="text"/></td></tr>
+</table>
+
+<table id="ChemTest2" class="table">
+<tr><th colspan="2">Chemical Testing Services Location 2</th></tr>
+<tr class="heading"><td>Critical Limits</td><td>Test Results</td></tr>
+<tr><td>Pool Chlorine (1-10 ppm) - Disinfectant</td><td><input type="text"/></td></tr>
+<tr><td>Spa Chlorine (2-10 ppm) - Disinfectant</td><td><input type="text"/></td></tr>
+<tr><td>Pool Bromine (2-10 ppm) - Disinfectant</td><td><input type="text"/></td></tr>
+<tr><td>Spa Bromine (3-10 ppm) - Disinfectant</td><td><input type="text"/></td></tr>
+<tr><td>PH (7.2 - 7.6) - Acid Level</td><td><input type="text"/></td></tr>
+<tr><td>Total Alkalinity (80 - 120 ppm)</td><td><input type="text"/></td></tr>
+<tr><td>Calcium Hardness (200 - 400 ppm)</td><td><input type="text"/></td></tr>
+<tr><td>CYA/UV Stabilizer</td><td><input type="text"/></td></tr>
+<tr><td>Pool Salt (2800 - 3500 ppm)</td><td><input type="text"/></td></tr>
+</table>
+
+
+<table id="ChemDel" class="table">
+<tr><th colspan="5" >Chemical Delivery</th>
+<tr class="heading"><td>Chemicals</td><td colspan="2">Quantity Delivered</td><td colspan="2">Treatment Services</td></tr>
+<tr class="heading"><td></td><td>#1</td><td>#2</td><td>#1</td><td>#2</td></tr>
+<tr><td>Chlorine Sticks - lbs.</td><td><input type="text"/></td><td><input type="text"/></td><td><input type="text"/></td><td><input type="text"/></td></tr>
+<tr><td>Liquid Chlorine - gallons</td><td><input type="text"/></td><td><input type="text"/></td><td><input type="text"/></td><td><input type="text"/></td></tr>
+<tr><td>Bromine Tabs - lbs.</td><td><input type="text"/></td><td><input type="text"/></td><td><input type="text"/></td><td><input type="text"/></td></tr>
+<tr><td>Muriatic Acid - gallons (pH down)</td><td><input type="text"/></td><td><input type="text"/></td><td><input type="text"/></td><td><input type="text"/></td></tr>
+<tr><td>Soda Ash - lbs.</td><td><input type="text"/></td><td><input type="text"/></td><td><input type="text"/></td><td><input type="text"/></td></tr>
+<tr><td>Shock - lbs.</td><td><input type="text"/></td><td><input type="text"/></td><td><input type="text"/></td><td><input type="text"/></td></tr>
+<tr><td>Bicarbonate of Soda - lbs. (alklanity up)</td><td><input type="text"/></td><td><input type="text"/></td><td><input type="text"/></td><td><input type="text"/></td></tr>
+<tr><td>DE - lbs. (filtering agent)</td><td><input type="text"/></td><td><input type="text"/></td><td><input type="text"/></td><td><input type="text"/></td></tr>
+<tr><td>Algaecide - qt.</td><td><input type="text"/></td><td><input type="text"/></td><td><input type="text"/></td><td><input type="text"/></td></tr>
+<tr><td>Sequestering Agent - qt.</td><td><input type="text"/></td><td><input type="text"/></td><td><input type="text"/></td><td><input type="text"/></td></tr>
+<tr><td>Enzyme- qt. (tile scum line remover)</td><td><input type="text"/></td><td><input type="text"/></td><td><input type="text"/></td><td><input type="text"/></td></tr>
+<tr><td>CYA/UV Stabilizer - lbs.</td><td><input type="text"/></td><td><input type="text"/></td><td><input type="text"/></td><td><input type="text"/></td></tr>
+<tr><td>Pool Salt - lbs.</td><td><input type="text"/></td><td><input type="text"/></td><td><input type="text"/></td><td><input type="text"/></td></tr>
+<th colspan="5">Special Chemicals</th>
+<tr><td><input type="text" style="width:175px; float:left;"/></td><td><input type="text"/></td><td><input type="text"/></td><td><input type="text"/><td><input type="text"/></td></tr>
+<tr><td><input type="text" style="width:175px; float:left;"/><td><input type="text"/></td></td><td><input type="text"/></td><td><input type="text"/><td><input type="text"/></td></tr>
+<tr><td><input type="text" style="width:175px; float:left;"/><td><input type="text"/></td></td><td><input type="text"/></td><td><input type="text"/><td><input type="text"/></td></tr>
+</table>
+
+
+
+<table id="Clean" class="table">
+<tr><th colspan="3">Cleaning Services</th></tr>
+<tr class="heading"><td>Cleaning Services</td><td>#1</td><td>#2</td></tr>
+<tr><td>Vacuum: <input type="checkbox"/> Power &nbsp; <input type="checkbox"/>Hand  </td><td><input type="text"/></td><td><input type="text"/></td></tr>
+<tr><td>Clean: Tile at Water Line</td><td><input type="text"/></td><td><input type="text"/></td></tr>
+<tr><td>Brush: <input type="checkbox"/> Steps &nbsp; <input type="checkbox"/> Wall &nbsp; <input type="checkbox"/> Floor </td><td><input type="text"/></td><td><input type="text"/></td></tr>
+<tr><td>Clean: <input type="checkbox"/> Skimmer &nbsp; <input type="checkbox"/>Basket &nbsp; <input type="checkbox"/> Gutter </td><td><input type="text"/></td><td><input type="text"/></td></tr>
+<tr><td>Clean: <input type="checkbox"/> Polaris Bag &nbsp; <input type="checkbox"/> Vac Canister &nbsp; </td><td><input type="text"/></td><td><input type="text"/></td></tr>
+<tr><td>Leaf Net: <input type="checkbox"/> Pool Surface &nbsp; <input type="checkbox"/> Floor &nbsp; </td><td><input type="text"/></td><td><input type="text"/></td></tr>
+<tr><td>Clean: <input type="checkbox"/> Spa &nbsp; <input type="checkbox"/> Fountain &nbsp; <input type="checkbox"/> Feature  </td><td><input type="text"/></td><td><input type="text"/></td></tr>
+<tr><td>Pump Station Basket</td><td><input type="text"/></td><td><input type="text"/></td></tr>
+<tr><td>Clean: <input type="checkbox"/> Filter &nbsp; <input type="checkbox"/> Bump &nbsp; <input type="checkbox"/> Acid Wash  </td><td><input type="text"/></td><td><input type="text"/></td></tr>
+<tr><td>Vacuum to Waste w/ On-Deck Pump</td><td><input type="text"/></td><td><input type="text"/></td></tr>
+<tr><td>Extra: <input type="checkbox"/> Fecal &nbsp; <input type="checkbox"/> Vandalism &nbsp; <input type="checkbox"/> Storm </td><td><input type="text"/></td><td><input type="text"/></td></tr>
+</table>
+
+<table id="Calibration" class="table">
+<th colspan="3">Calibration and Monitor Services</th>
+<tr class="heading"><td>Equipment Services</td><td>#1</td><td>#2</td></tr>
+<tr><td><strong>Inspect:</strong> Pumps, Motors, Gauges, Filters</td><td><input type="text"/></td><td><input type="text"/></td></tr>
+<tr><td><strong>Adjust:</strong> Flow Control Valves / Clocks</td><td><input type="text"/></td><td><input type="text"/></td></tr>
+<tr><td><strong>Calibrate:</strong> Automatic Control Systems</td><td><input type="text"/></td><td><input type="text"/></td></tr>
+<tr><th colspan="3">Replaced Small Parts</th></tr>
+<tr><td><input type="text" style="width:300px; float:left;"/></td><td><input type="text" /></td><td><input type="text"/></td></tr>
+<tr><td><input type="text" style="width:300px; float:left;"/></td><td><input type="text"/></td><td><input type="text"/></td></tr>
+</table>
+
+
+
+
+</div>
+<div class="container"  id="inventory">
+		
+		<h2 class="page-title" id="scroll_up">
+				Inventory 
+				<a href="#home" class="arrow-top">
+				<img src="img/arrow-top.png">
+				</a>
+			</h2>
+		
+<p>The driver will have the opportunity to review the inventory that is being supplied to him</p>
+<table id="ChemDel" class="table">
+<tr><th colspan="5" >Chemical Delivery</th>
+<tr class="heading"><td>Chemicals</td><td colspan="2">Quantity Supplied</td></tr>
+<tr><td>Chlorine Sticks - lbs.</td><td>Data From Dock</td></tr>
+<tr><td>Liquid Chlorine - gallons</td><td>Data From Dock</td></tr>
+<tr><td>Bromine Tabs - lbs.</td><td>Data From Dock</td></tr>
+<tr><td>Muriatic Acid - gallons (pH down)</td><td>Data From Dock</td></tr>
+<tr><td>Soda Ash - lbs.</td><td>Data From Dock</td></tr>
+<tr><td>Shock - lbs.</td><td>Data From Dock</td></tr>
+<tr><td>Bicarbonate of Soda - lbs. (alklanity up)</td><td>Data From Dock</td></tr>
+<tr><td>DE - lbs. (filtering agent)</td><td>Data From Dock</td></tr>
+<tr><td>Algaecide - qt.</td><td>Data From Dock</td></tr>
+<tr><td>Sequestering Agent - qt.</td><td>Data From Dock</td></tr>
+<tr><td>Enzyme- qt. (tile scum line remover)</td><td>Data From Dock</td></tr>
+<tr><td>CYA/UV Stabilizer - lbs.</td><td>Data From Dock</td></tr>
+<tr><td>Pool Salt - lbs.</td><td>Data From Dock</td></tr>
+</table>
+<input type="button" value="Accept Supply Load" class="btn"/>
+<input type="button" value="Request Recount" class="btn"/>
+</div>
+<div class="container"  id="invoice">
+		
+		<h2 class="page-title" id="scroll_up">
+				Invoice
+				<a href="#home" class="arrow-top">
+				<img src="img/arrow-top.png">
+				</a>
+			</h2>
+		
+
+<input type="button" value="Send customer receipt to email" class="btn"/>
+</div>
+</form>
+
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-collapse.js"></script>
+<script src="js/bootstrap-scrollspy.js"></script>
+<script src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script src="js/init.js"></script>
+
+</body>
+</html>
