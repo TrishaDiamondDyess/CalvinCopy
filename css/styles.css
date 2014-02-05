@@ -98,7 +98,13 @@ input[type="number"]
 	float:right;
 	top:-200px;
 }	
-
+table #ChemDel, tr, td .table tbody{
+	width:40%;
+	height:auto;
+	color:white;
+	
+}
+}
 
 /***** NAVIGATION BAR *****/
 
