@@ -104,6 +104,9 @@ table #ChemDel, tr, td .table tbody{
 	color:white;
 	
 }
+.extrawide{
+	max-width:80%;
+}
 
 
 /***** NAVIGATION BAR *****/
