@@ -104,8 +104,8 @@ table #ChemDel, tr, td .table tbody{
 	color:white;
 	
 }
-.extrawide{
-	max-width:80%;
+.extrawide input[type="text"]{
+	width:75px;
 }
 
 
