@@ -84,6 +84,7 @@ input[type="text"] {
 input[type="number"]
 {
 	width:50px;
+	height:20px;
 }
 .btn
 {
@@ -108,7 +109,16 @@ table #ChemDel, tr, td .table tbody{
 	width:75px;
 }
 
+.pwdInput{
+	position:relative;
+	top:-20%;
+	right:85%;
+	height:25px;
+}
 
+.short{
+	width:100px;
+}
 /***** NAVIGATION BAR *****/
 
 .navbar .brand {
