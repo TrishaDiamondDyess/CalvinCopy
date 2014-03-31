@@ -232,18 +232,18 @@
 <tr><th colspan="5" >Chemicals Supplied to Driver</th>
 <tr class="heading"><td>Chemicals</td><td>Quantity Supplied</td><td>Accept</td><td>Deny</td></tr>
 <tr><td>Chlorine Sticks - lbs.</td><td>Data From Dock</td><td><input type="checkbox" id="yes1">Yes</td><td><input type="checkbox">No</td></tr>
-<tr><td>Liquid Chlorine - gallons</td><td>Data From Dock</td><td><input type="checkbox" id="yes1">Yes</td><td><input type="checkbox">No</td></tr>
-<tr><td>Bromine Tabs - lbs.</td><td>Data From Dock</td><td><input type="checkbox" id="yes1">Yes</td><td><input type="checkbox">No</td></tr>
-<tr><td>Muriatic Acid - gallons (pH down)</td><td>Data From Dock</td><td><input type="checkbox" id="yes1">Yes</td><td><input type="checkbox">No</td></tr>
-<tr><td>Soda Ash - lbs.</td><td>Data From Dock</td><td><input type="checkbox" id="yes1">Yes</td><td><input type="checkbox">No</td></tr>
-<tr><td>Shock - lbs.</td><td>Data From Dock</td><td><input type="checkbox" id="yes1">Yes</td><td><input type="checkbox">No</td></tr>
-<tr><td>Bicarbonate of Soda - lbs. (alklanity up)</td><td>Data From Dock</td><td><input type="checkbox" id="yes1">Yes</td><td><input type="checkbox">No</td></tr>
-<tr><td>DE - lbs. (filtering agent)</td><td>Data From Dock</td><td><input type="checkbox" id="yes1">Yes</td><td><input type="checkbox">No</td></tr>
-<tr><td>Algaecide - qt.</td><td>Data From Dock</td><td><input type="checkbox" id="yes1">Yes</td><td><input type="checkbox">No</td></tr>
-<tr><td>Sequestering Agent - qt.</td><td>Data From Dock</td><td><input type="checkbox" id="yes1">Yes</td><td><input type="checkbox">No</td></tr>
-<tr><td>Enzyme- qt. (tile scum line remover)</td><td>Data From Dock</td><td><input type="checkbox" id="yes1">Yes</td><td><input type="checkbox">No</td></tr>
-<tr><td>CYA/UV Stabilizer - lbs.</td><td>Data From Dock</td><td><input type="checkbox" id="yes1">Yes</td><td><input type="checkbox">No</td></tr>
-<tr><td>Pool Salt - lbs.</td><td>Data From Dock</td><td><input type="checkbox" id="yes1">Yes</td><td><input type="checkbox">No</td></tr>
+<tr><td>Liquid Chlorine - gallons</td><td>Data From Dock</td><td><input type="checkbox" id="yes2">Yes</td><td><input type="checkbox">No</td></tr>
+<tr><td>Bromine Tabs - lbs.</td><td>Data From Dock</td><td><input type="checkbox" id="yes3">Yes</td><td><input type="checkbox">No</td></tr>
+<tr><td>Muriatic Acid - gallons (pH down)</td><td>Data From Dock</td><td><input type="checkbox" id="yes4">Yes</td><td><input type="checkbox">No</td></tr>
+<tr><td>Soda Ash - lbs.</td><td>Data From Dock</td><td><input type="checkbox" id="yes5">Yes</td><td><input type="checkbox">No</td></tr>
+<tr><td>Shock - lbs.</td><td>Data From Dock</td><td><input type="checkbox" id="yes6">Yes</td><td><input type="checkbox">No</td></tr>
+<tr><td>Bicarbonate of Soda - lbs. (alklanity up)</td><td>Data From Dock</td><td><input type="checkbox" id="yes7">Yes</td><td><input type="checkbox">No</td></tr>
+<tr><td>DE - lbs. (filtering agent)</td><td>Data From Dock</td><td><input type="checkbox" id="yes8">Yes</td><td><input type="checkbox">No</td></tr>
+<tr><td>Algaecide - qt.</td><td>Data From Dock</td><td><input type="checkbox" id="yes9">Yes</td><td><input type="checkbox">No</td></tr>
+<tr><td>Sequestering Agent - qt.</td><td>Data From Dock</td><td><input type="checkbox" id="yes10">Yes</td><td><input type="checkbox">No</td></tr>
+<tr><td>Enzyme- qt. (tile scum line remover)</td><td>Data From Dock</td><td><input type="checkbox" id="yes11">Yes</td><td><input type="checkbox">No</td></tr>
+<tr><td>CYA/UV Stabilizer - lbs.</td><td>Data From Dock</td><td><input type="checkbox" id="yes12">Yes</td><td><input type="checkbox">No</td></tr>
+<tr><td>Pool Salt - lbs.</td><td>Data From Dock</td><td><input type="checkbox" id="yes13">Yes</td><td><input type="checkbox">No</td></tr>
 </table>
 <input type="button" value="Accept All" id="selectAll" class="btn" onclick="checkYes()"/>
 <input type="button" value="Request Recount" class="btn"/>
@@ -272,12 +272,7 @@
 <script type="javascript">
 function checkYes()
 {
-		
-		$('#selectAll').click(function(e){
-	var table= $(e.target).closest('table');
-	$('td input:checkbox',table).attr('checked',e.target.checked);
-});
-                
+		document.getElementById("yes1").checked=true;
 }
 </script>
 </body>
